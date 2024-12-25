@@ -1,7 +1,72 @@
-
-h1{
-    color: blue;
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
 }
-p{
-    color: red;
+
+header {
+    text-align: center;
+    background: #333;
+    color: #fff;
+    padding: 1em 0;
+    margin-bottom: 20px;
+    position: sticky; /* Fixed position */
+    top: 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+/* Profile Section */
+section {
+    margin: 20px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin-right: 15px;
+    border-radius: 50%;
+    border: 2px solid #ccc;
+}
+
+.greet {
+    color: brown;
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+.name {
+    color: rgb(255, 213, 0);
+    font-weight: bold;
+}
+
+ul, ol {
+    margin: 15px 0;
+    padding-left: 40px;
+}
+
+ul li, ol li {
+    margin-bottom: 5px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    margin-top: 20px;
+    font-size: 0.9em;
 }
